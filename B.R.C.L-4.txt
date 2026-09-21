@@ -1,0 +1,7 @@
+Basics of React Components: Your first component : Try out some challenges:
+
+ Rshores: 
+https://learnwithsumit.com/course/rnext/your-first-component
+
+Importing & Exporting JS File 
+https://youtu.be/pcN3PFnw2Q0
