@@ -1,0 +1,55 @@
+
+1. javascript: prototype--> how to work ? learn with 
+
+
+
+what is Virtual DOM?
+=> Virtual DOM হলো Real DOM-এর JavaScript representation।
+React comparison করে
+
+এই process-টাকে সাধারণভাবে reconciliation বলা হয়। --> 
+
+Old Virtual DOM
+       +
+New Virtual DOM
+       ↓
+   Reconciliation
+       ↓
+Find changes
+
+
+all flow:  important diagram:
+
+             React Component
+                    │
+                    ↓
+              State / Props
+                    │
+                    ↓
+              React Render
+                    │
+                    ↓
+             New Virtual DOM
+                    │
+                    ↓
+       Old Virtual DOM vs New
+                    │
+                    ↓
+             Reconciliation
+                    │
+                    ↓
+          Required DOM Changes
+                    │
+                    ↓
+                Real DOM
+                    │
+                    ↓
+             Browser Rendering
+                    │
+                    ↓
+                  Screen
+
+
+Remember this in one line :
+
+React UI describe করে → React changes determine করে → প্রয়োজনীয় Real DOM update করে → Browser সেটা render করে।

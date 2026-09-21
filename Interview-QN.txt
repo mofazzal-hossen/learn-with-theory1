@@ -1,0 +1,26 @@
+Module 1-> C.L–1: Interview QN?
+
+1. What is react ?
+2.What is reactDOM ?
+
+3.Why i used react? 
+4.why not used vanilla javascript ?
+
+
+
+c.l.3:   
+
+⭐ Most Important 10
+
+For a Junior React/MERN interview, make sure you can confidently explain these:
+
+What is DOM?
+What is Virtual DOM?
+Real DOM vs Virtual DOM
+Why does React use Virtual DOM?
+What is reconciliation?
+What happens after a state update?
+What causes a component to re-render?
+What is React Fiber?
+Why are keys important?
+Explain the React rendering process.
