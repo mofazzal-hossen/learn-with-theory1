@@ -1,0 +1,44 @@
+
+VS Code Settings no short cut : command+, then look right site and click on gable setting on
+VS Code Settings no short cut: command + shift +p then : snippets then look javascript and javascriptreact then past 
+
+VS Code Settings
+You can copy these settings and adjust them according to your current configurations.
+
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.run": "onSave",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "*/.js": {
+      "when": "**"
+    },
+    "*/.jsx": {
+      "when": "**"
+    }
+  },
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false
+}
+
+
+
+
+////:2 
+Here is the code for the VS Code snippets as well.
+{
+  "React component": {
+    "prefix": "rfc",
+    "body": ["export default function $1(){", "    return (", "        $2", "    );", "}"],
+    "description": "React functional component"
+  }
+}
