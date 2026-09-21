@@ -1,0 +1,18 @@
+Documentation
+https://react.dev/learn/importing-and-exporting-components
+
+
+Importing & Exporting JS File
+https://youtu.be/pcN3PFnw2Q0
+
+
+
+
+what is Default Export && Named Export ? 
+### ES Module Export & Import
+
+| Type        | Export Statement                      | Import Statement                        |
+| ----------- | ------------------------------------- | --------------------------------------- |
+| **Default** | `export default function Button() {}` | `import Button from './Button.js';`   
+--..  |
+| **Named**   | `export function Button() {}`         | `import { Button } from './Button.js';` |
