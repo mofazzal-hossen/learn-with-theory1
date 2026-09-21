@@ -53,3 +53,11 @@ all flow:  important diagram:
 Remember this in one line :
 
 React UI describe করে → React changes determine করে → প্রয়োজনীয় Real DOM update করে → Browser সেটা render করে।
+
+
+
+DOM playlist
+https://www.youtube.com/watch?v=XY96d0vEdFk&list=PLHiZ4m8vCp9MJDxMOzhYVuTrO1b5n-Tq_
+
+Prototype Tutorial
+https://youtu.be/Z45VQuHO_VA
