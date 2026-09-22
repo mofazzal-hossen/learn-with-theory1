@@ -1,0 +1,29 @@
+why dose react need key? 
+=> React needs `key` to uniquely identify list items and efficiently track which items are added, removed, or changed during reconciliation.**
+
+const users = [
+  { id: 1, name: "Mofazzal" },
+  { id: 2, name: "Rahim" },
+  { id: 3, name: "Karim" }
+];
+
+function UserList() {
+  return (
+    <ul>
+      {users.map(user => (
+        <li key={user.id}>
+          {user.name}
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+key={user.id}
+
+
+
+Documentation
+https://react.dev/learn/rendering-lists
+JavaScript Refresher
+https://youtu.be/3sdpkFZUhlA
