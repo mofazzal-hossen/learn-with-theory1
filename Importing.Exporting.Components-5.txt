@@ -26,6 +26,14 @@ what is Default Export && Named Export ?
 
 
 
-React's Markup - Writing Markup with JSX
+React's Markup - Writing Markup with JSX CL=6.
 Documentation
 https://react.dev/learn/writing-markup-with-jsx
+
+
+
+
+ React's Markup - JavaScript in JSX with Curly Braces CL=7
+
+ Documentation
+https://react.dev/learn/javascript-in-jsx-with-curly-braces
