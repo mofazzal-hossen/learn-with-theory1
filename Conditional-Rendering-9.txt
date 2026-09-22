@@ -1,0 +1,55 @@
+Documentation :
+https://react.dev/learn/conditional-rendering
+
+
+JavaScript Refresher:
+https://youtu.be/3sdpkFZUhlA
+
+
+
+Example of And Operator: 
+NB=>Roules1: // Left site truthy hole right side returns korbe, otherwise left site returns korbe. 
+
+Example of And Operator:
+In this example, the '&&' operator checks whether the left-side value is truthy; if it is, the operator returns the value on the right side. Alternatively, if the left-side value is falsy, the operator returns the value on the left side.
+
+const lang = "devil";
+const result1 = lang && "JavaScript";
+
+console.log(result1); //JavaScript
+
+const lang2 = false;
+const result2 = lang2 && "JavaScript";
+
+console.log(result2); //false
+
+
+
+
+/// 
+Example of Or Operator:
+NB=>Roules2: // Left site falsy hole right side returns korbe, otherwise left site returns korbe. 
+
+
+In this example, the '||' (logical OR) operator is utilized to determine the values assigned to the variables 'result1' and 'result2' based on the truthiness of the variables 'lang' and 'lang2', respectively.
+
+const lang = "devil";
+const result1 = lang || "JavaScript";
+
+console.log(result1); // devil
+
+
+
+/////
+
+
+Example of Nullish Coalescing Operator:
+NB=>Roules3: // Left site (null && undefined) hole right side returns korbe, otherwise left site returns korbe. 
+
+In this example, the '??' (nullish coalescing) operator is employed to determine the values assigned to the variables 'result1' and 'result2' based on the presence of a nullish (null or undefined) value in the variables 'lang' and 'lang2', respectively.
+
+const lang = "devil";
+const result1 = lang ?? "JavaScript";
+
+console.log(result1); // devil
+
