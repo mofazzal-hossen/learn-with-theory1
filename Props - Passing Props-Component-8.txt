@@ -1,0 +1,13 @@
+
+
+why are props called immutable?? :
+=> Props are called immutable because a child component can read them but should not modify them directly.
+
+Documentation
+https://react.dev/learn/passing-props-to-a-component 
+
+Destructuring
+https://youtu.be/UXxg2ncX4gU
+
+Reference vs Primitive Values
+https://youtu.be/vK8fnE_-NI0
