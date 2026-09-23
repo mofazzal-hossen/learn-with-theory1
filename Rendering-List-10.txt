@@ -35,3 +35,13 @@ Pure Components: Keeping Components Pure : C.L-11
 
 Documentation
 https://react.dev/learn/keeping-components-pure
+
+
+
+
+
+
+Understanding Complex React UI: C.L-12
+
+Documentation
+https://react.dev/learn/understanding-your-ui-as-a-tree
