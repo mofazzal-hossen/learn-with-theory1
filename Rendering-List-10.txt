@@ -27,3 +27,11 @@ Documentation
 https://react.dev/learn/rendering-lists
 JavaScript Refresher
 https://youtu.be/3sdpkFZUhlA
+
+
+
+
+Pure Components: Keeping Components Pure : C.L-11
+
+Documentation
+https://react.dev/learn/keeping-components-pure
