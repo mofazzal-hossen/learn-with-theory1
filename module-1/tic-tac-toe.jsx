@@ -1,5 +1,27 @@
-function square({value}){
-    return <button className="bg-white border other-css add ">{value}</button>
+
+import {useState} from 'react'
+
+function square(){
+
+    const [value, setValue]= useState(null);
+
+
+
+function handleClick(){
+    // console.log("Click!!")
+
+    setValue ('x')
+}
+
+
+    return (
+
+        <button
+         className="bg-white border other-css add " onClick={handleClick} >
+            {value}
+         
+         </button>
+    ) 
 }
 
 
