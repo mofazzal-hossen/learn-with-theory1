@@ -1,0 +1,82 @@
+- [ ] 1. Declarative versus imperative UI
+- [ ] 2. How to think about state structure
+- [ ] 3. How to design state structure
+- [ ] 4. What to avoid when designing state structure
+- [ ] 5. Preserving state
+- [ ] 6. Reducers
+- [ ] 7. Reducer optimization
+- [ ] 8. Prop drilling
+- [ ] 9. Context API
+- [ ] 10. Practical use of the Context API
+- [ ] 11. Scaling with Context and reducers
+
+
+
+
+Junior Level (Focus: Core Concepts, State Principles & Basic Context)
+Declarative vs. Imperative UI (Topic 1)
+
+What is the fundamental difference between declarative and imperative programming when manipulating the DOM in a SaaS application? Why is declarative UI easier to maintain?
+
+State Structure & Anti-Patterns (Topics 2, 3 & 4)
+
+What principles should you follow when designing state for a SaaS form (e.g., user signup)? Why should you avoid storing redundant or derived state (e.g., storing both firstName, lastName, and fullName)?
+
+Prop Drilling & Context API (Topics 8 & 9)
+
+What is "prop drilling," and why does it become a problem as a SaaS application grows? How does the Context API solve this issue?
+
+Reducers Basics (Topic 6)
+
+What is a reducer function in React (useReducer), and how does its signature ((state, action) => newState) differ from standard useState updates?
+
+Practical Context Usage (Topic 10)
+
+When building a SaaS application, what are typical global use cases for the Context API (e.g., user authentication state, UI theme, localization)?
+
+
+
+
+
+
+
+
+Mid-Level Level (Focus: State Normalization, Reducer Logic & Context Patterns)
+Designing & Optimizing State Structure (Topics 3, 4 & 7)
+
+In a SaaS dashboard with multi-level nested data (e.g., Workspaces → Projects → Tasks), why should state be kept flat/normalized? How do you update a single item in a deeply nested array without mutating state?
+
+Preserving and Resetting State (Topic 5)
+
+How does React decide when to preserve or reset a component's state during re-renders? How can you force React to reset a component's state using the key prop when switching between different user profiles or SaaS tenant accounts?
+
+Reducers & Complex State Logic (Topics 6 & 7)
+
+When should you replace multiple useState calls with a single useReducer in a complex SaaS workflow (e.g., a multi-step checkout or onboarding wizard)? How do you optimize pure reducer functions for readability and testability?
+
+Context API Bottlenecks (Topics 9 & 10)
+
+Why can the Context API cause performance issues in large-scale SaaS applications? What happens to consumer components when a Context value changes, and how do you split contexts to prevent unwanted re-renders?
+
+
+
+
+
+
+
+Senior Level (Focus: Scalable Architecture, Global State Patterns & Performance Optimization)
+Scaling with Context and Reducers (Topic 11)
+
+How do you architect a scalable state solution combining useReducer and the Context API for an enterprise SaaS app? How do custom Provider components and custom hooks (e.g., useAuthContext) encapsulate dispatch logic and safeguard against un-provided hook calls?
+
+Preserving State across Lifecycle & Layout Changes (Topic 5)
+
+In a SaaS single-page application with persistent layouts (e.g., sidebar nav, live chat widget, dynamic tabs), how do you preserve component state across route transitions while unmounting non-visible views?
+
+Reducer Optimization & Immutability at Scale (Topics 6 & 7)
+
+In real-time SaaS applications handling fast data streams (e.g., live logs, websockets), how do you minimize the computational cost of pure reducers? Compare manual immutability copying vs. structural sharing libraries like Immer.
+
+State Architecture & Global State Strategy (Topics 2, 4 & 11)
+
+How do you establish clear boundaries between Local UI State, Global App State (Context/Redux/Zustand), and Server Cache State (TanStack Query) in a large SaaS codebase? What guidelines do you give your engineering team on what not to place into global state?
