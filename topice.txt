@@ -1,0 +1,99 @@
+[   ] 1. What is React
+[   ] 2. How React works
+[   ] 3. React components
+[   ] 4. JSX
+[   ] 5. Component props
+[   ] 6. Pure functions
+[   ] 7. Conditional rendering
+[   ] 8. Rendering lists
+[   ] 9. Events
+[   ] 10. What is state
+[   ] 11. How state works
+[   ] 12. How rendering works
+[   ] 13. How state updates
+[   ] 14. Object and array state management
+
+
+
+
+
+
+
+interview for :
+
+Junior Level (Focus: Fundamentals, Basic Syntax & Usage)
+What is React & How it Works (Topics 1 & 2)
+
+What core problem does React solve for single-page SaaS applications compared to plain JavaScript/DOM manipulation? How does the Virtual DOM help React render updates efficiently?
+
+React Components & JSX (Topics 3 & 4)
+
+What is JSX, and how does it compile down to regular JavaScript? Why can a React component return only a single root JSX element or Fragment?
+
+Component Props & Pure Functions (Topics 5 & 6)
+
+What are props, and why are they read-only? What does it mean for a React component to behave as a "pure function"?
+
+Conditional Rendering & Events (Topics 7 & 9)
+
+How do you handle click events in React? If you use items.length && <SaaSFeed/> for conditional rendering, what happens when items is an empty array ([])?
+
+Rendering Lists (Topic 8)
+
+Why is the key prop required when rendering list items (e.g., table rows of SaaS users)? What happens if you use array index numbers as keys?
+
+State & State Updates (Topics 10, 11 & 13)
+
+What is state, and why can’t you just update a regular variable to change what’s on the screen? How do you trigger a state update in a functional component?
+
+
+
+
+Mid-Level Position (Focus: React Engine, Batching, Immutability & Practical SaaS Patterns)
+How React Works & How Rendering Works (Topics 2 & 12)
+
+Walk through the React rendering pipeline: Trigger → Render → Commit. What triggers a render cycle in a SaaS dashboard, and how does reconciliation (the Diffing algorithm) decide what updates in the real DOM?
+
+Component Props & Pure Functions (Topics 5 & 6)
+
+How do side effects violate the "pure function" rule in React components? What issues arise during React's Strict Mode double-invocations if a component mutates global data or props during rendering?
+
+How State Works & State Updates (Topics 11 & 13)
+
+Why are state updates batched in React? What is a stale closure, and why should you use the functional updater form setCount(prev => prev + 1) when queueing multiple state updates?
+
+Object and Array State Management (Topic 14)
+
+You are building a SaaS user management table where admins can update user roles or delete accounts. How do you immutably add, update, or remove an item in an array/object state without mutating the original state?
+
+Events & Conditional Rendering (Topics 7 & 9)
+
+How do Synthetic Events work in React? How do you handle event bubbling and delegation inside complex SaaS modal dialogs or dropdown menus?
+
+
+
+Senior Level (Focus: System Architecture, Performance Optimization, Re-render Control & SaaS Scale)
+
+How React Works & Render Performance (Topics 2 & 12)
+
+In a multi-widget SaaS analytics dashboard rendering real-time data, how do you diagnose and eliminate unnecessary component re-renders? Compare the roles of React.memo, useMemo, and useCallback.
+
+
+Pure Functions & Immutability at Scale (Topics 6 & 14)
+
+When managing deeply nested state objects (such as tenant settings or workspace configurations), how do you enforce immutability efficiently? How do libraries like Immer or structural cloning compare to manual spread operators (...) in terms of performance and maintainability?
+
+
+How State Updates & Asynchronous Execution Work (Topics 11, 12 & 13)
+
+How does automatic batching work under React’s Fiber architecture? How would you manage concurrent UI updates where a low-priority render (e.g., filtering 10,000 SaaS logs) must not block high-priority user input?
+
+
+Component Architecture & Props vs. State Boundaries (Topics 3, 5 & 10)
+
+How do you architect component boundaries for a SaaS application to avoid "prop drilling" without causing top-level Context re-render cascades across the entire app tree?
+
+
+Conditional Rendering & Micro-Frontends/RBAC (Topic 7)
+
+How do you design a high-level Conditional Rendering system for enterprise Role-Based Access Control (RBAC) where UI elements, features, and route layouts dynamically alter based on tenant plans and user permission flags?
