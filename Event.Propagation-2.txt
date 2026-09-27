@@ -40,3 +40,20 @@ https://www.youtube.com/watch?v=Z45VQuHO_VA
 you have try : 
 console.dir
 clg.log
+
+
+
+what is Event delegation? and how to work ?
+🎯 Interview Answer
+“Event delegation is a technique where we attach a single event listener to a parent element to handle events from its child elements. It works using event bubbling and helps reduce the number of event listeners, especially for dynamic lists.”
+
+One-line version
+“Event delegation uses event bubbling to handle multiple child events with a single parent event listener.”
+
+what is Event propagation? and how to work ?
+🎯 Interview Answer
+“Event propagation is the process by which an event travels through the DOM tree. It has three phases: capturing, target, and bubbling. By default, most events are handled during the bubbling phase.”
+
+
+Event Propagation = event কীভাবে DOM-এর মধ্যে travel করে।
+Event Delegation = এই propagation/bubbling ব্যবহার করে parent-এর মাধ্যমে child events handle করা।
