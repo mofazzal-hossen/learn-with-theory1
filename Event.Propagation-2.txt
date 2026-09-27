@@ -42,6 +42,13 @@ console.dir
 clg.log
 
 
+* * * * * * * *
+Event Propagation - Bubbling vs. Capturing Explained?
+0:42 - Event Propagation
+2:56 - Event Bubbling
+5:45 - target vs currentTarget vs this
+7:35 - Event Capturing
+9:08 - A tricky problem
 
 what is Event delegation? and how to work ?
 🎯 Interview Answer
