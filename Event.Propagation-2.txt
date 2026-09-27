@@ -1,0 +1,42 @@
+REFERENCES: 
+Documentation
+https://react.dev/learn/responding-to-events#event-propagation
+
+
+Event Delegation tutorial: you must watch! fast 
+https://youtu.be/3wDARp0hEdY
+
+Event Propagation tutorial: then after 
+https://youtu.be/XnezDeTKVUY
+
+Prototype in JavaScript: 
+https://www.youtube.com/watch?v=Z45VQuHO_VA
+
+
+
+
+
+ how to Stopping propagation?
+ function Button({ onClick, children }) {
+  return (
+    <button onClick={e => {
+      e.stopPropagation();  // this line work 
+      onClick();
+    }}>
+      {children}
+    </button>
+  );
+}
+
+
+
+////Don’t confuse e.stopPropagation() and e.preventDefault(). They are both useful, but are unrelated:
+
+1. e.stopPropagation() stops the event handlers attached to the tags above from firing.
+2. e.preventDefault() prevents the default browser behavior for the few events that have it.
+
+
+
+you have try : 
+console.dir
+clg.log
