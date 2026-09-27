@@ -1,0 +1,9 @@
+REFERENCES:
+
+Documentation:
+https://react.dev/learn/state-a-components-memory
+
+Destructuring:
+https://youtu.be/UXxg2ncX4gU
+
+
