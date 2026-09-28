@@ -1,0 +1,11 @@
+
+
+Documentation:
+https://react.dev/learn/state-as-a-snapshot
+
+
+You will learn:
+How setting state triggers re-renders
+When and how state updates
+Why state does not update immediately after you set it
+How event handlers access a “snapshot” of the state
