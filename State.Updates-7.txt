@@ -1,0 +1,8 @@
+
+Documentation:
+https://react.dev/learn/queueing-a-series-of-state-updates
+
+
+You will learn: 
+What “batching” is and how React uses it to process multiple state updates
+How to apply several updates to the same state variable in a row
