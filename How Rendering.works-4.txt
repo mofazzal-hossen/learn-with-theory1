@@ -1,0 +1,7 @@
+Documentation:
+https://react.dev/learn/render-and-commit
+
+
+//ধরেন আপনি একটি রিয়্যাক্ট ওয়েব সাইটে গেলেন , এখন এই ওয়েব সাইট এ করা রিকোয়েস্ট মোট কয়টি ধাপে আপনার UI তে আসবে ?
+EXPLANATION:
+UI এর জন্য রিকোয়েস্ট এবং UI serve হওয়া ৩ টি ধাপে হয়ে থাকে। ধাপ ৩ টি হচ্ছে Triggering, Rendering ও Committing
