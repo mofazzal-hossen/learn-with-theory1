@@ -12,3 +12,11 @@ https://youtu.be/3sdpkFZUhlA
 lest 10min agin watch ???
 
 
+src/
+└── components/
+    └── ProjectSummary/
+        ├── ProjectSummary.jsx
+        ├── TotalProjects.jsx
+        ├── PendingProjects.jsx
+        ├── CompletedProjects.jsx
+        └── TotalBudget.jsx
