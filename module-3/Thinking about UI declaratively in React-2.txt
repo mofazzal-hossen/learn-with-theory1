@@ -4,3 +4,29 @@ Thinking about UI declaratively:
 REFERENCES:
 Documentation:
 https://react.dev/learn/reacting-to-input-with-state
+
+
+
+Flow chart moving left to right with 5 nodes. The first node labeled 'empty' has one edge labeled 'start typing' connected to a node labeled 'typing'. That node has one edge labeled 'press submit' connected to a node labeled 'submitting', which has two edges. The left edge is labeled 'network error' connecting to a node labeled 'error'. The right edge is labeled 'network success' connecting to a node labeled 'success'.
+
+┌─────────┐
+│  Empty  │
+└────┬────┘
+     │ Start typing
+     ↓
+┌─────────┐
+│ Typing  │
+└────┬────┘
+     │ Press submit
+     ↓
+┌────────────┐
+│ Submitting │
+└─────┬──────┘
+      │
+      ├────────────── Network error ──────────────→ ┌───────┐
+      │                                             │ Error │
+      │                                             └───────┘
+      │
+      └────────────── Network success ────────────→ ┌─────────┐
+                                                    │ Success │
+                                                    └─────────┘
