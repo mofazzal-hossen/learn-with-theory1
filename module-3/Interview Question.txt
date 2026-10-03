@@ -1,0 +1,8 @@
+What is the difference between declarative UI and imperative UI? Can you explain with a simple example?
+
+Interview Answer:
+Declarative UI means we describe what the UI should look like, and the framework handles how to update the UI. React uses a declarative approach.
+Imperative UI means we explicitly tell the program how to change the UI step by step, usually by directly manipulating the DOM.
+!
+In short:  
+Declarative UI focuses on what the UI should be, while imperative UI focuses on how to change the UI.
