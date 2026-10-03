@@ -1,0 +1,8 @@
+
+
+REFERENCES:
+Documentation
+https://react.dev/learn/reacting-to-input-with-state
+
+Asynchronous JS:
+https://www.youtube.com/watch?v=IUBd76UQb34
