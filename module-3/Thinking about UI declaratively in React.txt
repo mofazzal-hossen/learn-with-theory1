@@ -1,0 +1,6 @@
+Thinking about UI declaratively:  
+
+
+REFERENCES:
+Documentation:
+https://react.dev/learn/reacting-to-input-with-state
