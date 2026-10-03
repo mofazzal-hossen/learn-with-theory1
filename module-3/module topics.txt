@@ -1,0 +1,14 @@
+What are refs
+DOM manipulation with refs
+Best practices for refs
+Flushing state updates
+Synchronization with effects
+Practical uses of effects
+When effects are and are not needed
+Fetching data with effects
+The effect lifecycle
+How effects react to reactive values
+Separating effects from events
+Optimizing effect dependencies
+Reusing logic with custom hooks
+Performance optimization
