@@ -5,5 +5,14 @@ https://react.dev/learn/reacting-to-input-with-state#step-3-represent-the-state-
 github: git clone https://github.com/Learn-with-Sumit/rnext && git checkout 3.3
 
 
+Step 1: Identify your component’s different visual states 
+Step 2: Determine what triggers those state changes 
+Step 3: Represent the state in memory with useState 
+Step 4: Remove any non-essential state variables 
+Step 5: Connect the event handlers to set state 
+
+
 what is react controlled input vs uncontrolled?
 => controlled inputs have their values driven by React state via value and onChange props, while uncontrolled inputs manage their own state within the DOM and are read via refs when needed.
+
+
