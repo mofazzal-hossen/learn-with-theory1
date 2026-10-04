@@ -1,0 +1,3 @@
+REFERENCES:
+Documentation:
+https://react.dev/learn/reacting-to-input-with-state#step-3-represent-the-state-in-memory-with-usestate
