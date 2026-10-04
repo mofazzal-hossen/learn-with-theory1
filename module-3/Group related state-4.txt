@@ -3,3 +3,7 @@ GITHUB:  git clone https://github.com/Learn-with-Sumit/rnext && git checkout 3.4
 REFERENCES:
 Documentation:
 https://react.dev/learn/choosing-the-state-structure#group-related-state
+
+
+
+you do mor read group documentation .
