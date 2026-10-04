@@ -1,0 +1,4 @@
+vs code restart : control + shift + p
+select option =>typescript:restart ts server
+
+
