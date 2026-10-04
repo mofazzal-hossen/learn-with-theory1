@@ -1,3 +1,7 @@
 REFERENCES:
 Documentation:
 https://react.dev/learn/reacting-to-input-with-state#step-3-represent-the-state-in-memory-with-usestate
+
+
+what is react controlled input vs uncontrolled?
+=> controlled inputs have their values driven by React state via value and onChange props, while uncontrolled inputs manage their own state within the DOM and are read via refs when needed.
