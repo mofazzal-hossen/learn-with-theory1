@@ -7,3 +7,6 @@ https://react.dev/learn/choosing-the-state-structure#avoid-redundant-state
 
 Why Avoid Storing Derived State?
 When developers mistakenly put derived values into a separate useState and sync them using useEffect, it introduces several issues:
+
+EXPLANATION
+Derived State বলতে অন্য কোন State বা Props থেকে যেই ভ্যারিয়াবল বা State তৈরি হয় তাকে বোঝায়। 
