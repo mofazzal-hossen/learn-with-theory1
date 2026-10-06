@@ -5,3 +5,23 @@ github:  git clone https://github.com/Learn-with-Sumit/rnext && git checkout 3.9
 REFERENCES:
 Documentation:
 https://react.dev/learn/sharing-state-between-components
+
+Lifting state up:
+                 SHARING STATE
+
+              ┌───────────────────┐
+              │  Parent Component │
+              │                   │
+              │  activePanel = 1  │
+              └─────────┬─────────┘
+                        │
+                 ┌──────┴──────┐
+                 ↓             ↓
+        ┌────────────────┐  ┌────────────────┐
+        │    Panel 1     │  │    Panel 2     │
+        │    (Child)     │  │    (Child)     │
+        │                │  │                │
+        │ isActive=true  │  │ isActive=false │
+        │       ✓        │  │                │
+        │     CLICKED    │  │                │
+        └────────────────┘  └────────────────┘
