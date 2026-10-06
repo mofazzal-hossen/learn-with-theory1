@@ -25,3 +25,9 @@ Lifting state up:
         │       ✓        │  │                │
         │     CLICKED    │  │                │
         └────────────────┘  └────────────────┘
+
+
+What are controlled and uncontrolled components interview qustion??
+
+Interview short answer:
+“In a controlled component, React state controls the form value. In an uncontrolled component, the DOM manages the value, and we access it using refs.”
