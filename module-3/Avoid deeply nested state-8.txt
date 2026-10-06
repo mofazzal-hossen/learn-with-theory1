@@ -1,0 +1,5 @@
+
+github: git clone https://github.com/Learn-with-Sumit/rnext && git checkout 3.8
+
+Documentation:
+https://react.dev/learn/choosing-the-state-structure#avoid-deeply-nested-state
