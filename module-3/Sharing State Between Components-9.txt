@@ -31,3 +31,12 @@ What are controlled and uncontrolled components interview qustion??
 
 Interview short answer:
 “In a controlled component, React state controls the form value. In an uncontrolled component, the DOM manages the value, and we access it using refs.”
+
+
+
+
+
+*** 
+why react is popular ? 
+Short version
+“React’s one-way data flow makes applications predictable and easier to debug and maintain, which is one of the reasons React is popular.”
