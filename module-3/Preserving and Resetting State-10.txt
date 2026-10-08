@@ -5,3 +5,6 @@ github:  git clone https://github.com/Learn-with-Sumit/rnext && git checkout 3.1
 REFERENCES:
 Documentation:
 https://react.dev/learn/preserving-and-resetting-state#state-is-tied-to-a-position-in-the-tree
+
+Different components at the same position reset state?
+what is different div vs section in react 
