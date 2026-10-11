@@ -1,0 +1,6 @@
+github: git clone https://github.com/Learn-with-Sumit/rnext && git checkout 3.15
+
+REFERENCES:
+
+Documentation:
+https://react.dev/learn/extracting-state-logic-into-a-reducer#writing-concise-reducers-with-immer
