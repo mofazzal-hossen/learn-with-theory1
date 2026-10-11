@@ -1,0 +1,4 @@
+
+
+Documentation:
+https://react.dev/learn/extracting-state-logic-into-a-reducer#comparing-usestate-and-usereducer
